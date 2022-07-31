@@ -33,17 +33,17 @@ fact Stock {
 }
 
 fact Share {
-  value: decimal
-  owner: ShareHolder
+      value: decimal
+      owner: ShareHolder
 }
 
 fact ShareHolder {
-  user: User
+      user: User
 }
 
 fact User {
-  username: string
-  password: SecureString
+      username: string
+      password: SecureString
 }
 ```
 
@@ -60,7 +60,19 @@ When dealing with facts, be aware of:
 
 ### Queries ¹
 
+```SQL
+query marketCapitalization (s: Stock) {
+      MATCH 
+}
 
+query shareHolders (s: Stock) {
+      MATCH
+}
+
+query sharePrice (s: stock) {
+      MATCH
+}
+```
 ## How to run
 
 ```bash
