@@ -1,5 +1,7 @@
 # Churras da Trica
 
+An app to schedule brazilian barbecues. The whole app treats the event as a generic vanue like stocks on the stock market in which peers can buy shares, participate on those ventures, and, in the case of this app, which happens to only support one type of venture; Barbecue Parties.
+
 ## How to run
 
 ```bash
